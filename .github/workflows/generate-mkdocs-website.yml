@@ -3,6 +3,7 @@
 name: Generate MKDocs Website
 permissions:
   contents: write # Permission to write (push) to repo contents
+  id-token: write # Needed for deploy-pages action
 
 on:
   push:
