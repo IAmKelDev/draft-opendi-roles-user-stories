@@ -1,15 +1,13 @@
 #Reference: https://www.mkdocs.org/user-guide/configuration/
 
-site_name: OpenDI Roles and User Stories
-repo_url: https://github.com/opendi-org/roles-user-stories  #This will be the public repo
+site_name: 'OpenDI: Roles and User Stories (DRAFT)'
+repo_url: https://github.com/IAmKelDev/draft-opendi-roles-user-stories  #This will be the public repo
 edit_uri: blob/dev/docs                                     #URI Partial, added to repo URL to link to editable version of user's current page
 
 docs_dir: "docs"  #Local directory for docs .md files
 
 nav:
-  - Overview:
-    - 'OpenDI': 'OpenDI Intro Material.md'
-    - 'Roles and User Stories': 'index.md'
+  - Overview: index.md
   - Roles:
     - 'Decision Maker': 'Roles/Decision Maker.md'
     - 'DI Analyst': 'Roles/DI Analyst.md'
@@ -21,7 +19,8 @@ nav:
     - 'Decision Monitor Builder': 'Roles/Decision Monitor Builder.md'
     - 'Decision Monitor': 'Roles/Decision Monitor.md'
     - 'Decision Quality Assurance Manager': 'Roles/Decision Quality Assurance Manager.md'
-  - 'OpenDI Glossary': 'OpenDI Glossary.md'
+  - 'OpenDI Home': 'https://iamkeldev.github.io/draft-opendi-home'
+  - 'OpenDI Glossary': 'https://iamkeldev.github.io/draft-opendi-home/OpenDI Glossary'
 
 # Exclude _Role Page Template.md
 exclude_docs: |
@@ -42,5 +41,18 @@ theme:
 #   features:
 #     - navigation.tabs
 #     - navigation.tabs.sticky
-#     - toc.integrate
+#     - navigation.sections
 #     - toc.follow
+  
+#   palette: 
+#     # Palette toggle for light mode
+#     - scheme: default
+#       toggle:
+#         icon: material/brightness-7 
+#         name: Switch to dark mode
+
+#     # Palette toggle for dark mode
+#     - scheme: slate
+#       toggle:
+#         icon: material/brightness-4
+#         name: Switch to light mode
