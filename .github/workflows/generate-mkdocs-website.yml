@@ -14,7 +14,6 @@ on:
   workflow_dispatch:   # Allow manual re-run from Actions tab
 
 jobs:
-  # Just one job here
   docs-gen: # Pulls repo contents, runs json schema docs generation, pushes new docs
     runs-on: ubuntu-latest
 
@@ -37,5 +36,23 @@ jobs:
 
       - name: Generate mkdocs # Run mkdocs deploy command
         run: |
-          mkdocs gh-deploy
+          mkdocs gh-deploy --force
+
+  # adapted from https://thomasthornton.cloud/2024/05/01/deploying-mkdocs-to-github-pages-with-github-actions/
+  deploy-docs:
+    needs: docs-gen
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4 # Check out the repo
+        with:
+          ref: gh-pages
+      - uses: actions/configure-pages@v5 # Configure pages
+      - uses: actions/upload-pages-artifact@v3 # Upload the pages
+        with:
+          path: '.'
+        id: deployment
+      - uses: actions/deploy-pages@v4 # Deploy the new pages
           
