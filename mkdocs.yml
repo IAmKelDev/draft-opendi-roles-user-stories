@@ -19,8 +19,10 @@ nav:
     - 'Decision Monitor Builder': 'Roles/Decision Monitor Builder.md'
     - 'Decision Monitor': 'Roles/Decision Monitor.md'
     - 'Decision Quality Assurance Manager': 'Roles/Decision Quality Assurance Manager.md'
-  - 'OpenDI Home': 'https://iamkeldev.github.io/draft-opendi-home'
-  - 'OpenDI Glossary': 'https://iamkeldev.github.io/draft-opendi-home/OpenDI Glossary'
+  - OpenDI:
+    - Home: "https://iamkeldev.github.io/draft-opendi-home"
+    - Glossary: 'https://iamkeldev.github.io/draft-opendi-home/OpenDI Glossary'
+    - 'How to Contribute': 'https://iamkeldev.github.io/draft-opendi-home/How To Contribute'
 
 # Exclude _Role Page Template.md
 exclude_docs: |
