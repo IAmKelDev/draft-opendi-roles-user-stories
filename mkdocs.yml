@@ -40,6 +40,9 @@ exclude_docs: |
 theme:
   name: material
 
+  favicon: img/opendi-icon-small.png
+  logo: img/opendi-icon.png
+
   features:
     - toc.follow
   
