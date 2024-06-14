@@ -45,6 +45,7 @@ theme:
 
   features:
     - toc.follow
+    - content.action.edit
   
   palette: 
     # Palette toggle for light mode
@@ -58,3 +59,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  
+  plugins:
+    - social
