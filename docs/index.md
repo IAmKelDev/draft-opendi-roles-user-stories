@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this document is to support those contributing to and benefitting from the OpenDI standards. To understand the motivation and background for the OpenDI project as a whole, read [OpenDI Intro Material](./OpenDI%20Intro%20Material.md). This document enumerates typical user roles for Decision Intelligence systems, with links to further descriptions and user stories for each role, in separate documents.
+The purpose of this document is to support those contributing to and benefitting from the OpenDI standards. To understand the motivation and background for the OpenDI project as a whole, read [OpenDI Intro Material](https://iamkeldev.github.io/draft-opendi-home/OpenDI%20Intro%20Material/). This document enumerates typical user roles for Decision Intelligence systems, with links to further descriptions and user stories for each role, in separate documents.
 
 ### Why read this document?
 
@@ -22,7 +22,7 @@ By way of illustration for #2, a software vendor might be interested in creating
 
 There are also open source teams that are developing modules that are compliant with the architecture summarized in Figure 2.   This means that if you are developing a proprietary module, then by following this standard you'll be able to leverage those open source systems, thereby de-risking and de-costing your product.  
 
-Note that the roles and associated use cases in this document are limited to those associated with the use of DI software systems. Out of scope for this document are roles and use cases that don't involve the use of DI software. For example, [_The Decision Intelligence Handbook_](www.dihandbook.com) describes a process for creating a decision framing document, which is the responsibility of a Decision Team Leader role. This role is not explicitly called out in this document, because they don't interact with DI software in ways that aren't covered by other roles. Nor is the creation of the Framing Document a user story described here, for the same reason.
+Note that the roles and associated use cases in this document are limited to those associated with the use of DI software systems. Out of scope for this document are roles and use cases that don't involve the use of DI software. For example, [_The Decision Intelligence Handbook_](https://www.dihandbook.com) describes a process for creating a decision framing document, which is the responsibility of a Decision Team Leader role. This role is not explicitly called out in this document, because they don't interact with DI software in ways that aren't covered by other roles. Nor is the creation of the Framing Document a user story described here, for the same reason.
 
 ### Who reads this document?
 Generally speaking, we expect this document to be used by software architects and/or technical leads who have decided to build software modules that follow the OpenDI standard.  Larger teams may even designate a formal "standards liason" role whose job it is to keep up with ecosystem activities.  
@@ -78,7 +78,7 @@ Once simulations have been created by the Decision Simulation Builder, I perform
 
 I rig Causal Decision Models so that they can be monitored, using evidence of outcomes, externals, and other decision element values. Rigged models are evaluated for whether the likelihood of achieving desirable outcomes has substantively changed.
 
-[Link: Monitor Builder (Full Role Description).](Decision%20Monitor%20Builder.md)
+[Link: Monitor Builder (Full Role Description).](./Roles/Decision%20Monitor%20Builder.md)
 
 ### Decision Monitor
 
@@ -90,7 +90,7 @@ I track a Causal Decision Model that has been used by a Decision Maker as it is 
 
 I provide oversight at every stage of the DI process, to ensure that models and simulations are authored, run, and monitored in such a way that they are fit for purpose.
 
-[Link: Quality Assurance Manager (Full Role Description).](Decision%20Quality%20Assurance%20Manager.md)
+[Link: Quality Assurance Manager (Full Role Description).](./Roles/Decision%20Quality%20Assurance%20Manager.md)
 
 ## About this document
 

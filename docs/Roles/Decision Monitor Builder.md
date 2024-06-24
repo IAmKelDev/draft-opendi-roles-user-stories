@@ -8,7 +8,7 @@ I work in the time frame *after* a decision associated with a particular CDM has
 
 My primary role is to create computational mechanisms that **detect** evidence of potential future problems with outcomes and **alert** users to that evidence. By way of example, a particular decision model may reflect that if a competitor's pricing goes below $5, then the model assumptions that led to a particular decision have been violated, so that a decision needs to be revisited.  It is my job to create a computational system that does this detection and alerting.
 
-I work primarily with data that is reflective of real-world situations to update models that may have been used by a [Decision Maker](./Decision%20Maker.md) in the past or are currently being simulated by a [Decision Simulation Manager](./Decision%20Simulation%20Manager). 
+I work primarily with data that is reflective of real-world situations to update models that may have been used by a [Decision Maker](./Decision%20Maker.md) in the past or are currently being simulated by a [Decision Simulation Manager](./Decision%20Simulation%20Manager.md). 
 
 I hand off my work to the [Decision Monitor](./Decision%20Monitor.md), whose job it is to deploy and manage my built decision monitor.
 

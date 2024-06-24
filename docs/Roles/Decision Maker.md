@@ -8,7 +8,7 @@ In the context of decision intelligence software, I am a Decision Maker, which m
 
 In the context of this standard, although Decision Makers, in general, may not be users of OpenDI-compliant software, in the context of this document, I, the Decision Maker, do indeed use such software.
 
-To achieve goals (1) and (2) above, my primary use of OpenDI-compliant software is to interact with renderings (_e.g._, visualizations, textual descriptions, _etc_.) of decision models provided by [Decision Model Builders](./Decision%20Model%20Builder.md) (for goal 1, above) and the results of simulations provided by [Decision Simulation Managers](./Decision%20Simulation%20Manager) (primarily for goal 2, above).
+To achieve goals (1) and (2) above, my primary use of OpenDI-compliant software is to interact with renderings (_e.g._, visualizations, textual descriptions, _etc_.) of decision models provided by [Decision Model Builders](./Decision%20Model%20Builder.md) (for goal 1, above) and the results of simulations provided by [Decision Simulation Managers](./Decision%20Simulation%20Manager.md) (primarily for goal 2, above).
 
 Generally speaking, I may be a non-technical person, which means that the renderings I prefer to view may leave out "under the hood" details, perhaps only showing actions and outcomes.
 
