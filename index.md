@@ -1,4 +1,4 @@
-# OpenDI Reference Architecture - Roles and User Stories
+# OpenDI Reference Architecture -- Roles and User Stories
 
 ## Purpose
 
